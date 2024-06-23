@@ -16,7 +16,7 @@ export const useLeaderboard = () => {
         
         
         try {
-            const response = await fetch('https://tenziesbackend.netlify.app/leaderboard', {
+            const response = await fetch('https://tenziesgame-backend.onrender.com/leaderboard', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
