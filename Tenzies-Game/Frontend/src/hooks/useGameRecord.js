@@ -10,7 +10,7 @@ export const useGameRecord = () => {
     const gameRecord = async (completionTime) => {
 
         console.log(completionTime);
-        const response = await fetch('https://tenziesbackend.netlify.app/gamerecord', {
+        const response = await fetch('https://tenziesgame-backend.onrender.com/gamerecord', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
